@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         //indicator.setHighLightTextColor(0xFFFF0000); //设置选中时颜色
         //indicator.getPaint().setColor(Color.parseColor("#00FF00"));   //设置画笔属性
 //        indicator.setGraphicsHeight(10);
-        indicator.setType(ViewPagerIndicator.TRIANGLE);
+        indicator.setType(ViewPagerIndicator.RECTANGULAR);
         indicator.setViewPager(viewPager, 1);
         viewPager.setAdapter(adapter);
 
